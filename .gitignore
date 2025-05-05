@@ -1,0 +1,28 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Unity user-specific settings
+UserSettings/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+
+# Visual Studio / Rider files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+.idea/
+.vscode/
+
+# Collab and cache
+.collab/
