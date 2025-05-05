@@ -15,9 +15,9 @@ The goal of this project is to create a reusable set of **interaction design pat
   - AR exhibit drawing and feature highlighting
   - Environmental protection game (e.g., coral reef defense)
 - Optimized for cultural heritage applications
-- Git-structured project with `.gitignore` tailored for Unity
+- Git-structured project with `.gitignore` tailored for Unity and MRTK
 
-## 🧩 Structure
+## 🧩 Project Structure
 
 ``` Assets/ Packages/ ProjectSettings/ ```
 
@@ -35,12 +35,21 @@ To set up MRTK in this project:
 2. In Unity, go to `Assets` → `Import Package` → `Custom Package...`.
 3. Import the required packages (e.g., `Foundation`, `Examples`, `Tools`, depending on your needs).
 
-### Option 2: Clone from GitHub (Advanced)
+### Option 2: Use the Mixed Reality Feature Tool
 
-1. Clone the MRTK repository into your local machine.
-2. Copy the necessary folders (e.g., `MixedRealityToolkit`, `MixedRealityToolkit.Examples`) into your `Assets/` folder.
+We recommend using the [Mixed Reality Feature Tool](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/welcome-to-mrtk) for installing MRTK.
 
-> **Note:** MRTK files are ignored by version control via `.gitignore`. You must manually install MRTK before opening the project.
+#### ✅ Recommended MRTK 2.8.3 Packages
+
+When using the Feature Tool, select only the following components:
+
+- **Mixed Reality Toolkit Foundation** ✅
+- **Mixed Reality Toolkit Standard Assets** ✅
+- **Mixed Reality Toolkit Tools** ✅
+- **Mixed Reality Toolkit Examples** *(optional)*
+- **Mixed Reality Toolkit Extensions** *(optional)*
+
+> This setup provides all essential MRTK functionality while keeping the project lightweight.
 
 ## 🛠 Requirements
 
