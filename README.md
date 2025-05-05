@@ -19,7 +19,11 @@ The goal of this project is to create a reusable set of **interaction design pat
 
 ## 🧩 Project Structure
 
-``` Assets/ Packages/ ProjectSettings/ ```
+```
+Assets/ 
+Packages/
+ProjectSettings/
+```
 
 > Note: Unity-generated folders (e.g., `Library/`, `Logs/`) and MRTK source files are ignored via `.gitignore`.
 
@@ -53,7 +57,7 @@ When using the Feature Tool, select only the following components:
 
 ## 🛠 Requirements
 
-- Unity **2022.X** or later
+- Unity **2020.3.25f1 (LTS)** or later
 - **AR Foundation**
 - **MRTK 2.8.3**
 - HoloLens 2 or compatible AR HMD
