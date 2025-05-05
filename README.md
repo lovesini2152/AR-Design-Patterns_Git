@@ -44,8 +44,8 @@ This project is part of the doctoral research by **Yu Liu** (Hochschule RheinMai
 
 ## 📄 License
 
-This project is currently **private** and not under a public license.  
-For academic collaboration or access requests, please contact the author.
+This project is licensed under the [MIT License](./LICENSE).  
+You are free to use, modify, and distribute the code with proper attribution.
 
 ## 📬 Contact
 
