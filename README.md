@@ -19,18 +19,34 @@ The goal of this project is to create a reusable set of **interaction design pat
 
 ## 🧩 Structure
 
-Assets/
-Packages/
-ProjectSettings/
+``` Assets/ Packages/ ProjectSettings/ ```
 
+> Note: Unity-generated folders (e.g., `Library/`, `Logs/`) and MRTK source files are ignored via `.gitignore`.
 
+## 📦 MRTK Installation
 
-> Note: Other Unity-generated folders like `Library/` and `Logs/` are excluded via `.gitignore`.
+This project requires **Mixed Reality Toolkit (MRTK) version 2.8.3**.
+
+To set up MRTK in this project:
+
+### Option 1: Install via Unity `.unitypackage`
+
+1. Download **MRTK 2.8.3** `.unitypackage` files from the official [MRTK GitHub Releases](https://github.com/microsoft/MixedRealityToolkit-Unity/releases).
+2. In Unity, go to `Assets` → `Import Package` → `Custom Package...`.
+3. Import the required packages (e.g., `Foundation`, `Examples`, `Tools`, depending on your needs).
+
+### Option 2: Clone from GitHub (Advanced)
+
+1. Clone the MRTK repository into your local machine.
+2. Copy the necessary folders (e.g., `MixedRealityToolkit`, `MixedRealityToolkit.Examples`) into your `Assets/` folder.
+
+> **Note:** MRTK files are ignored by version control via `.gitignore`. You must manually install MRTK before opening the project.
 
 ## 🛠 Requirements
 
 - Unity **2022.X** or later
 - **AR Foundation**
+- **MRTK 2.8.3**
 - HoloLens 2 or compatible AR HMD
 - Git (for version control)
 
@@ -52,4 +68,4 @@ You are free to use, modify, and distribute the code with proper attribution.
 **Yu Liu**  
 PhD Candidate, Hochschule RheinMain  
 GitHub: [lovesini2152](https://github.com/lovesini2152)  
-Email: (yu.liu@hs-rm.de)
+Email: [yu.liu@hs-rm.de](mailto:yu.liu@hs-rm.de)
