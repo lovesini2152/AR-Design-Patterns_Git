@@ -52,4 +52,4 @@ For academic collaboration or access requests, please contact the author.
 **Yu Liu**  
 PhD Candidate, Hochschule RheinMain  
 GitHub: [lovesini2152](https://github.com/lovesini2152)  
-Email: (your-email@example.com)
+Email: (yu.liu@hs-rm.de)
