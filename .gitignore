@@ -26,3 +26,16 @@ Thumbs.db
 
 # Collab and cache
 .collab/
+
+# MRTK (Mixed Reality Toolkit)
+Assets/MRTK*/
+Assets/MixedRealityToolkit*/
+Assets/Samples/
+Assets/Examples/
+
+# Common packages that shouldn't be tracked
+Assets/Plugins/
+Assets/ThirdParty/
+
+# Optional: Ignore .unitypackage backups if you import manually
+*.unitypackage
