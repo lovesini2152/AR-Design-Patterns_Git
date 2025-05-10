@@ -57,10 +57,10 @@ When using the Feature Tool, select only the following components:
 
 ## 🛠 Requirements
 
-- Unity **2020.3.25f1 (LTS)** or later
+- Unity **2020.3.25f1 ** 
 - **AR Foundation**
 - **MRTK 2.8.3**
-- HoloLens 2 or compatible AR HMD
+- HoloLens 2 
 - Git (for version control)
 
 ## 📘 Research Background
@@ -70,28 +70,6 @@ This project is part of the doctoral research by **Yu Liu** (Hochschule RheinMai
 - Define reusable interaction design patterns for AR  
 - Support developers through a prefab-based approach  
 - Enhance user experience in AR museum exhibitions
-
-## 📦 UnityPackage
-
-A ready-to-import `.unitypackage` file is included:
-
-**Path**: `Assets/UnityPackages/ForwardCueRooting_Unitypackage.unitypackage`
-
-> This file allows quick import of the Forward Cue Rooting pattern prefab into other Unity projects.  
-> If you've already cloned this repository, there's no need to re-import it.
-
-## 📘 Pattern Prefab Documentation
-
-Each interaction pattern prefab will have its own `README.md` under its respective folder:
-
-```
-Assets/AR_Design_Patterns/ARPatternPrefabs/Prefab/[PatternName]/README.md
-```
-
-These include:
-- Pattern description and purpose
-- Setup and configuration instructions
-- Optional screenshots or demo info
 
 
 
